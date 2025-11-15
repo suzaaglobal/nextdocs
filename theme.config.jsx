@@ -6,6 +6,10 @@ const config = {
   docsRepositoryBase: 'https://github.com/suzaaglobal/nextdocs',
   footer: {
     text: 'Suzaa Documentation'
+  },
+  sidebar: {
+    defaultMenuCollapseLevel: 0,
+    toggleButton: true
   }
 }
 
