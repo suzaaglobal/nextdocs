@@ -1,5 +1,5 @@
 const config = {
-  logo: <span>Suzaa Docs</span>,
+  logo: <span style={{ fontWeight: 'bold', fontSize: '18px' }}>SUZAA</span>,
   project: {
     link: 'https://github.com/suzaaglobal/nextdocs'
   },
@@ -10,6 +10,22 @@ const config = {
   sidebar: {
     defaultMenuCollapseLevel: 0,
     toggleButton: true
+  },
+  navbar: {
+    extraContent: (
+      <a 
+        href="https://suzaa.com" 
+        style={{ 
+          marginLeft: 'auto',
+          padding: '8px 16px',
+          color: '#666',
+          textDecoration: 'none',
+          fontWeight: 500
+        }}
+      >
+        Home
+      </a>
+    )
   }
 }
 
